@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+## Welcome to AutoIncrement Exploration
 
-You can use the [editor on GitHub](https://github.com/gaston-e-nusimovich/AutoIncrement-Exploration/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This repository contains the tools I have developed to explore the ups and downs of the use of AutoIncremental (Identity, Sequence) generators for ID fields in tables in any given SQL DBMS (that supports autoincremental generators).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### General Comments
 
-### Markdown
+The main reason for this exploration is to determine, with as many objective arguments as possible (based on evidence, that is), how good or bad, from the perspective of both **Quality Attributes** (like performance and scalability) and **Software Architecture**, is the overall end result that provides the use of AutoIncremental generators.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gaston-e-nusimovich/AutoIncrement-Exploration/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Even though I use a specific ORM tool (**NHibernate**) in the tools and code samples that form this exploration, the conclusions arrived by said exploration apply for all software projects that use AutoIncremental generators, whether or not said projects use ORM tools.
