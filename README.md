@@ -10,6 +10,6 @@ Even though I use a specific ORM tool (**NHibernate**) in the tools and code sam
 
 The main tool in this exploration is a configurable console application that, through parallel processing (based on the **Task Parallel Library**), can run multiple independent "clones" of a given process.
 
-The routines to be "cloned" execute basic CRUD operations for a certain entities that have a PK with an ID field based on an AutoIncremental generator.
+The routines to be "cloned" execute basic CRUD operations for certain entities that have a PK with an ID field based on an AutoIncremental generator.
 
 
